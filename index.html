@@ -186,6 +186,16 @@ fieldset{border:0;margin:0;padding:0;display:grid;gap:14px;min-width:0}
 .ghost:hover{background:var(--cream);color:var(--ink)}
 .copied{font-size:13px;color:var(--gold)}
 
+/* Give early */
+.early{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.early .wrap{padding-block:72px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:56px;align-items:center}
+.early-text{display:grid;gap:18px}
+.early h2{font-size:clamp(34px,5vw,58px)}
+.early p{margin:0;color:var(--muted);max-width:56ch}
+.early-cta{display:grid;gap:14px;justify-items:start;border-left:1px solid var(--gold);padding-left:32px}
+.early-cta .fine{max-width:34ch}
+@media (max-width:820px){.early .wrap{grid-template-columns:1fr;gap:28px}.early-cta{border-left:0;padding-left:0}}
+
 /* Cause */
 .cause{background:var(--olive)}
 .cause .wrap{padding-block:88px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:56px;align-items:start}
@@ -360,6 +370,23 @@ html{scroll-behavior:smooth}
         </div>
         <button class="btn ghost" type="button" id="again" style="justify-self:start">Make another pledge</button>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="early" id="give-early">
+  <div class="wrap">
+    <div class="early-text">
+      <span class="eyebrow">Give early</span>
+      <h2>Give before the bell.</h2>
+      <p>You don’t have to wait for the market to open to be part of Traders Giving Day. Ahead of November 11, make a gift in an amount that feels right for you.</p>
+      <p>Give early, share the campaign, and help share the excitement for November 11th!</p>
+    </div>
+    <div class="early-cta">
+      <a class="btn" href="https://secure.givelively.org/donate/aerial-recovery/traders-giving-day-11-11-2026" target="_blank" rel="noopener">Give early
+        <svg viewBox="0 0 26 12" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M0 6h24M19 1l5 5-5 5"/></svg>
+      </a>
+      <p class="fine">Gifts go directly to Aerial Recovery through its secure giving page.</p>
     </div>
   </div>
 </section>
