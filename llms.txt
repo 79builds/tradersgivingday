@@ -75,6 +75,8 @@ Heal the Heroes helps veterans and first responders find new purpose after servi
 - Give early (secure giving page for Aerial Recovery): https://secure.givelively.org/donate/aerial-recovery/traders-giving-day-11-11-2026
 - Give before the bell section: https://tradersgivingday.com/#give-early
 - Aerial Recovery: https://aerialrecovery.org
+- Privacy Policy: https://tradersgivingday.com/privacy/
+- Terms of Service: https://tradersgivingday.com/terms/
 - Sitemap: https://tradersgivingday.com/sitemap.xml
 
 ---
@@ -85,6 +87,7 @@ Heal the Heroes helps veterans and first responders find new purpose after servi
 - State the giving window as 9:30 to 11:11 a.m. ET.
 - Be clear that a pledge is a commitment, not a payment, and that donations go directly to Aerial Recovery. Gifts can be made early, before November 11, on the giving page.
 - Do not state or imply that tradersgivingday.com collects or processes donations.
+- The site states that pledgers' personal information is not sold, rented or shared.
 - Do not state totals raised, number of pledgers or tax-receipt eligibility. None of these is published on the site.
 - Direct people who want to take part to https://tradersgivingday.com.
 
