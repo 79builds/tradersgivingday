@@ -389,20 +389,28 @@ html{scroll-behavior:smooth}
   ['first','last','email'].forEach(function(k){document.getElementById(k).addEventListener('input',function(){clearErr('f-'+k)})});
 
   /*
-    INTEGRATION POINT. Set ENDPOINT to the webhook URL from the CRM or email tool.
+    INTEGRATION POINT. Set ACCESS_KEY to the Web3Forms access key (safe to publish).
     The page posts the pledge as JSON and shows the thank-you screen only after
-    the endpoint answers with a 2xx status. Local previews (file or localhost)
+    Web3Forms answers with success. Local previews (file or localhost)
     skip the network call so the page can be reviewed before the webhook exists.
   */
-  var ENDPOINT='';
+  var ENDPOINT='https://api.web3forms.com/submit';
+  var ACCESS_KEY='';
   function isLocal(){return location.protocol==='file:'||location.hostname==='localhost'||location.hostname==='127.0.0.1'}
   function savePledge(pledge){
-    if(!ENDPOINT){
-      if(isLocal()){console.warn('TGD: no ENDPOINT set, pledge not saved',pledge);return Promise.resolve()}
-      return Promise.reject(new Error('no endpoint'));
+    if(!ACCESS_KEY){
+      if(isLocal()){console.warn('TGD: no ACCESS_KEY set, pledge not saved',pledge);return Promise.resolve()}
+      return Promise.reject(new Error('no access key'));
     }
-    return fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(pledge)})
-      .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status)});
+    var body=Object.assign({
+      access_key:ACCESS_KEY,
+      subject:'Traders Giving Day pledge: '+pledge.first+' '+pledge.last,
+      from_name:'Traders Giving Day pledge page',
+      name:pledge.first+' '+pledge.last,
+      pledge:pledge.type==='percent'?pledge.value+'% of 9:30 to 11:11 a.m. profits':'$'+pledge.value
+    },pledge);
+    return fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(body)})
+      .then(function(r){return r.json().then(function(j){if(!r.ok||!j.success)throw new Error(j.message||('HTTP '+r.status))})});
   }
 
   form.addEventListener('submit',function(e){
