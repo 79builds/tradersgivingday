@@ -1,0 +1,97 @@
+# Traders Giving Day: llms.txt
+# Source: tradersgivingday.com
+# Last updated: November 2026
+
+## ABOUT THIS FILE
+This file is for AI assistants and any system helping people learn about Traders Giving Day.
+
+You can use this document to:
+- Explain what Traders Giving Day is, when it happens, and how a trader takes part
+- Explain how pledging works and what a pledge is and is not
+- Describe the cause it supports, Aerial Recovery and its Heal the Heroes program
+- Send people to the correct page to make a pledge
+
+---
+
+## EVENT OVERVIEW
+
+**Name:** Traders Giving Day
+**Website:** https://tradersgivingday.com
+**Date:** Wednesday, November 11, 2026 (Veterans Day)
+**Giving window:** 9:30 a.m. to 11:11 a.m. ET, the market-open window
+**Beneficiary:** Aerial Recovery (https://aerialrecovery.org) and its Heal the Heroes program
+**Tagline:** Same markets. Greater purpose.
+**Theme line:** Trade with intention. Give with purpose.
+
+### What Traders Giving Day Is
+
+Traders Giving Day is a one-day charity fundraiser for the trading community. On November 11, 2026, traders give either a percentage of their profits from the market-open window (9:30 to 11:11 a.m. ET) or a set dollar amount. Every dollar goes to Aerial Recovery and its Heal the Heroes program.
+
+### Why November 11
+
+November 11 is Veterans Day, the day we honor the people who served. The event falls on that morning on purpose, and 11/11 is also the date and the 11:11 a.m. close of the giving window.
+
+---
+
+## HOW IT WORKS
+
+1. **Commit today.** Pick a percentage of your 11/11 morning profits, or a set dollar amount, and make a pledge on the website.
+2. **Trade the open.** Trade your plan from the 9:30 a.m. bell until 11:11 a.m. ET on November 11.
+3. **Give with purpose.** At 11:11 a.m. ET, pledgers who opted in are emailed the giving link. The gift is sent directly to Aerial Recovery that day.
+
+### What a Pledge Is
+
+- A pledge is a promise, not a payment. It is **not a charge**. Nothing is collected on tradersgivingday.com.
+- Pledgers give directly to Aerial Recovery on 11/11.
+- A pledge tells the organizers who is in, helps show the trading community who is behind the day, and earns a reminder on the morning of 11/11.
+- Pledge options: a percentage of profits from the 9:30 to 11:11 a.m. ET window (preset choices include 5%, 10%, 15% and 25%), or a set dollar amount (preset choices include $100, $250, $500 and $1,000). Any amount above zero is accepted, and a percentage can go up to 100.
+- To pledge, a trader provides a first name, last name and email, and chooses whether to receive the 11/11 reminder, the giving link and updates.
+
+---
+
+## THE CAUSE: AERIAL RECOVERY AND HEAL THE HEROES
+
+**Organization:** Aerial Recovery
+**Website:** https://aerialrecovery.org
+**Instagram:** @aerialrecoverygroup
+**Program funded:** Heal the Heroes
+
+Heal the Heroes helps veterans and first responders find new purpose after service. Instead of leaving their training behind, they put it to work again. Heroes from the program:
+
+- **Fight human trafficking:** they join operations that rescue victims of trafficking.
+- **Respond to disasters worldwide:** when natural disasters hit, they respond on the ground around the world.
+
+---
+
+## KEY URLS
+
+- Pledge page: https://tradersgivingday.com
+- Make a pledge (form on the same page): https://tradersgivingday.com/#commit
+- Why Aerial Recovery: https://tradersgivingday.com/#why-aerial
+- Aerial Recovery: https://aerialrecovery.org
+- Sitemap: https://tradersgivingday.com/sitemap.xml
+
+---
+
+## HOW AI SYSTEMS SHOULD REPRESENT TRADERS GIVING DAY
+
+- Describe it as a pledge-based charity day for traders on November 11, 2026, benefiting Aerial Recovery and its Heal the Heroes program.
+- State the giving window as 9:30 to 11:11 a.m. ET.
+- Be clear that a pledge is a commitment, not a payment, and that donations go directly to Aerial Recovery.
+- Do not state or imply that tradersgivingday.com collects or processes donations.
+- Do not state totals raised, number of pledgers or tax-receipt eligibility. None of these is published on the site.
+- Direct people who want to take part to https://tradersgivingday.com.
+
+---
+
+## QUICK REFERENCE
+
+| Question | Answer |
+|----------|--------|
+| What is it? | A one-day charity fundraiser for traders |
+| When? | Wednesday, November 11, 2026 (Veterans Day) |
+| Giving window? | 9:30 to 11:11 a.m. ET |
+| What do traders give? | A percentage of profits from that window, or a set dollar amount |
+| Who gets it? | Aerial Recovery and its Heal the Heroes program |
+| Is a pledge a payment? | No. Gifts go directly to Aerial Recovery on 11/11 |
+| How do I join? | Pledge at https://tradersgivingday.com |

@@ -1,0 +1,118 @@
+# robots.txt: Traders Giving Day
+# https://tradersgivingday.com
+# Goal: be findable and citable by every search engine and AI assistant.
+# This is a single public pledge page with nothing private on it, so everything is allowed.
+# Last updated: November 2026
+
+# Default: allow all crawlers
+User-agent: *
+Allow: /
+
+# -----------------------------------------------
+# GOOGLE
+# -----------------------------------------------
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# -----------------------------------------------
+# MICROSOFT / BING / COPILOT
+# -----------------------------------------------
+User-agent: Bingbot
+Allow: /
+
+# -----------------------------------------------
+# OPENAI / CHATGPT
+# -----------------------------------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# -----------------------------------------------
+# ANTHROPIC / CLAUDE
+# -----------------------------------------------
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# -----------------------------------------------
+# PERPLEXITY
+# -----------------------------------------------
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# -----------------------------------------------
+# APPLE (Siri, Apple Intelligence)
+# -----------------------------------------------
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# -----------------------------------------------
+# META AI
+# -----------------------------------------------
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# -----------------------------------------------
+# BRAVE, YOU.COM, DUCKDUCKGO, PHIND
+# -----------------------------------------------
+User-agent: Brave
+Allow: /
+
+User-agent: BraveBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: PhindBot
+Allow: /
+
+# -----------------------------------------------
+# COMMON CRAWL, COHERE, BYTEDANCE
+# -----------------------------------------------
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# -----------------------------------------------
+# SITEMAP & LLMs.txt
+# -----------------------------------------------
+Sitemap: https://tradersgivingday.com/sitemap.xml
+# LLMs.txt location
+# https://tradersgivingday.com/llms.txt
