@@ -101,6 +101,14 @@ a{color:var(--gold)}
 .window{font-family:var(--display);font-size:clamp(28px,4vw,40px);color:var(--cream);line-height:1}
 .window small{display:block;font-family:var(--body);font-size:12px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
 
+/* About */
+.about{border-bottom:1px solid var(--line)}
+.about .wrap{padding-block:84px;display:grid;gap:26px;max-width:900px}
+.about h2{font-size:clamp(30px,4.6vw,52px);line-height:1.15;color:var(--white);text-wrap:balance}
+.about h2 em{font-style:italic;color:var(--gold)}
+.about p{margin:0;max-width:60ch;color:var(--muted);font-size:19px;text-wrap:pretty}
+.about .sign{font-family:var(--display);font-style:italic;font-size:22px;color:var(--cream)}
+
 /* Steps */
 .steps{padding-block:80px}
 .steps h2{font-size:clamp(30px,4.4vw,46px);margin-bottom:44px;max-width:20ch}
@@ -258,6 +266,15 @@ html{scroll-behavior:smooth}
     </div>
   </div>
 </header>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <span class="eyebrow">About Traders Giving Day</span>
+    <h2>One morning when the trading community turns the market open into a moment of <em>giving.</em></h2>
+    <p>On November 11, 2026, Veterans Day, traders pledge a percentage of their profits from the 9:30 to 11:11&nbsp;a.m. ET open, or a set dollar amount, to Aerial Recovery and its Heal the Heroes&nbsp;program.</p>
+    <p class="sign">Same markets. Greater&nbsp;purpose.</p>
+  </div>
+</section>
 
 <section class="steps">
   <div class="wrap">
